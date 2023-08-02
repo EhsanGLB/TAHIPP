@@ -1,10 +1,12 @@
 # TAHIPP
 This is a post-processing for time average of intensity helicity written based on foam-extend-4.1.
 
-## Math equation
-$$ TAH = {1 \over T} \int_0^T \mid U. \nabla U \mid $$
 
-Which $\tau_w$, $\mu$, $U$, and $n$ are wall shear stress, dynamic viscosity, velocity vector, and perpendicular vector, respectively.
+## Mathematical Relationships
+$$ TAHI = {1 \over T} \int_0^T \mid U. \nabla U \mid $$
+
+Which $TAHI$, $T$, and $U$ are time average of intensity helicity, period, and velocity vector, respectively.
+
 
 ## Installation
 It is working on foam-extend-4.1
@@ -14,6 +16,7 @@ cd TAHIPP/TAHIPP
 wmake
 cd ../case
 ```
+
 
 ## Getting Started
 1. First way
@@ -32,6 +35,7 @@ TAHIPP
 ```bash
 ./Allrun
 ```
+
 
 ## References
 * [Golab, Ehsan, Behzad Vahedi, Ankur Jain, Robert A. Taylor, and Kambiz Vafai. "Laminar forced convection in a tube with a nano-encapsulated phase change materials: Minimizing exergy losses and maximizing the heat transfer rate." Journal of Energy Storage 65 (2023): 107233.](https://www.sciencedirect.com/science/article/abs/pii/S2352152X23006308)
